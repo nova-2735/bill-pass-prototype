@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Clickable concept prototype of Bill Pass: pay a home bill on time, get ₹35 off your next mobile recharge.">
+<meta name="description" content="Clickable concept prototype of Bill Pass: pay your next three home bills on time, get ₹5, then ₹10, then ₹15 off your recharges.">
 </head>
 <body>
 <title>Bill Pass Prototype</title>
@@ -147,11 +147,11 @@ html.shot .tag-proto { display: none; }
     <div class="brand">
       <p class="label">Concept prototype · not Paytm UI</p>
       <h1>Bill Pass</h1>
-      <p>Pay a home bill on time, get ₹35 off your next mobile recharge, three times. Follow Sanjay, a Kanpur shop owner on a 28-day plan, through his first 94 days.</p>
+      <p>Pay your next three home bills on time on Paytm and get ₹5, then ₹10, then ₹15 off your next mobile recharges: ₹30 in all. Follow Sanjay, a Kanpur shop owner on a 28-day plan, through his first 94 days.</p>
     </div>
     <div class="steps" id="steps"></div>
     <div class="nav"><button id="prev" type="button">Back</button><button id="next" type="button" class="primary">Next screen</button></div>
-    <p class="fine">Amounts, names and dates are illustrative. Fee ₹0 assumes no platform fee on bill payments, to be verified. Tap the blue buttons in the phone to move through the journey.</p>
+    <p class="fine">Amounts, names and dates are illustrative. Fee ₹0 assumes no platform fee on UPI bill payments, to be verified. Tap the blue buttons in the phone to move through the journey.</p>
   </aside>
 
   <div class="device"><div class="viewport" id="vp">
@@ -163,24 +163,24 @@ html.shot .tag-proto { display: none; }
       <div class="body" style="gap:9px">
         <div class="card new" style="gap:2px">
           <span class="k">Your next Jio recharge</span>
-          <div class="row" style="justify-content:flex-start; align-items:baseline; gap:10px"><span class="strike">₹349</span><span class="big blue" style="font-size:38px">₹314</span></div>
-          <span class="p" style="font-size:16px">₹35 off for each home bill paid on time</span>
+          <div class="row" style="justify-content:flex-start; align-items:baseline; gap:10px"><span class="strike">₹349</span><span class="big blue" style="font-size:38px">₹344</span></div>
+          <span class="p" style="font-size:16px">₹5, then ₹10, then ₹15 off: one step for each home bill paid on time</span>
         </div>
         <div class="slots">
-          <div class="slot done"><b>Bill 1</b><span>₹35 ✓</span></div>
-          <div class="slot next"><b>Bill 2</b><span>due 22 Nov</span></div>
-          <div class="slot"><b>Bill 3</b><span>Dec</span></div>
+          <div class="slot done"><b>Bill 1 · ₹5</b><span>earned ✓</span></div>
+          <div class="slot next"><b>Bill 2 · ₹10</b><span>due 22 Nov</span></div>
+          <div class="slot"><b>Bill 3 · ₹15</b><span>Dec</span></div>
         </div>
         <div class="card tint" style="flex-direction:row; align-items:center; gap:10px; padding:10px 12px">
           <span class="okdot" style="background:#fff"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E6BE6" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
-          <div style="display:flex; flex-direction:column"><span class="v" style="font-size:17px">₹35 ready on 17 Oct</span><span class="k" style="font-size:15px">7 days after paying · lasts 120 days</span></div>
+          <div style="display:flex; flex-direction:column"><span class="v" style="font-size:17px">₹5 ready on 17 Oct</span><span class="k" style="font-size:15px">7 days after paying · lasts 120 days</span></div>
         </div>
         <span class="k" style="font-size:13px; font-weight:800; letter-spacing:1px; padding:2px 2px 0">BILL DUE</span>
         <div class="card" style="gap:5px">
           <div class="row"><span class="v">Electricity</span><span class="v">₹2,140</span></div>
           <span class="k" style="font-size:15px">Due 22 Nov · S. K. Gupta</span>
           <span class="diff">₹330 more than your last bill</span>
-          <div class="row" style="border-top:1px solid var(--line); padding-top:7px; margin-top:2px"><span class="k" style="font-size:15px">Fee ₹0</span><span class="v" style="font-size:16px; color:var(--blue)">earns ₹35</span></div>
+          <div class="row" style="border-top:1px solid var(--line); padding-top:7px; margin-top:2px"><span class="k" style="font-size:15px">Fee ₹0</span><span class="v" style="font-size:16px; color:var(--blue)">earns ₹10</span></div>
         </div>
         <div class="cta"><button class="btn" type="button" data-go="offer">Pay ₹2,140</button></div>
       </div>
@@ -196,12 +196,14 @@ html.shot .tag-proto { display: none; }
           <span class="okdot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E6BE6" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
           <span class="v">Done · ₹349</span>
         </div>
-        <div class="card new" style="gap:6px; padding:14px">
-          <span class="chip">Bill Pass</span>
-          <span class="p">Next ₹349 recharge:</span>
-          <span class="big blue" style="font-size:46px">₹314</span>
-          <span class="p" style="color:var(--muted)">₹35 off per home bill paid on time</span>
-          <div class="slots" style="margin-top:4px"><div class="slot" style="padding:5px"></div><div class="slot" style="padding:5px"></div><div class="slot" style="padding:5px"></div></div>
+        <div class="card new" style="gap:6px; padding:12px">
+          <span class="p" style="font-weight:700; color:var(--navy)"><span class="chip" style="font-size:12px; padding:2px 8px; vertical-align:2px">Bill Pass</span> Pay your next 3 electricity bills on Paytm</span>
+          <div class="slots">
+            <div class="slot next" style="align-items:center; padding:4px"><b style="font-size:20px; color:var(--blue)">₹5</b><span>bill 1</span></div>
+            <div class="slot" style="align-items:center; padding:4px"><b style="font-size:20px; color:var(--blue)">₹10</b><span>bill 2</span></div>
+            <div class="slot" style="align-items:center; padding:4px"><b style="font-size:20px; color:var(--blue)">₹15</b><span>bill 3</span></div>
+          </div>
+          <span class="p" style="font-size:16px">Next ₹349 recharge: <b style="color:var(--blue)">₹344</b>, then ₹339, then ₹334 · 7 days after each bill</span>
         </div>
         <div class="cta"><button class="btn" type="button" data-go="add">Add electricity bill</button></div>
       </div>
@@ -224,7 +226,7 @@ html.shot .tag-proto { display: none; }
         </div>
         <div class="card new" style="gap:8px">
           <div class="row"><span class="k">Fee</span><span class="v">₹0</span></div>
-          <div class="row"><span class="k">Earns</span><span class="v" style="color:var(--blue)">₹35</span></div>
+          <div class="row"><span class="k">Earns (bill 1 of 3)</span><span class="v" style="color:var(--blue)">₹5</span></div>
         </div>
         <div class="cta"><button class="btn" type="button" data-go="paid">Yes</button><button class="btn ghost" type="button" data-toast="Pick the account that is billed to you">No</button></div>
       </div>
@@ -242,12 +244,12 @@ html.shot .tag-proto { display: none; }
         </div>
         <div class="card new" style="flex-direction:row; align-items:center; gap:10px">
           <span class="okdot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E6BE6" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
-          <div style="display:flex; flex-direction:column"><span class="v" style="font-size:20px">₹35 earned</span><span class="p">Ready on 17 Oct</span></div>
+          <div style="display:flex; flex-direction:column"><span class="v" style="font-size:20px">₹5 earned</span><span class="p">Ready on 17 Oct</span></div>
         </div>
         <div class="slots">
-          <div class="slot done" style="align-items:center"><b>1 ✓</b></div>
-          <div class="slot" style="align-items:center"><b>2</b></div>
-          <div class="slot" style="align-items:center"><b>3</b></div>
+          <div class="slot done" style="align-items:center"><b>₹5 ✓</b></div>
+          <div class="slot next" style="align-items:center"><b>₹10</b></div>
+          <div class="slot" style="align-items:center"><b>₹15</b></div>
         </div>
         <button class="card" type="button" data-go="recharge" style="text-align:left; cursor:pointer">
           <span class="p" style="color:var(--muted)">Recharge before 17 Oct? It comes off the next one.</span>
@@ -263,14 +265,14 @@ html.shot .tag-proto { display: none; }
       <div class="body">
         <div class="card new" style="gap:4px; padding:14px">
           <span class="strike">₹349</span>
-          <span class="big blue" style="font-size:50px">₹314</span>
-          <span class="p">₹35 saved, earned by your electricity bill</span>
+          <span class="big blue" style="font-size:50px">₹344</span>
+          <span class="p">₹5 saved, earned by your electricity bill</span>
         </div>
         <div class="card" style="gap:8px">
-          <span class="p" style="color:var(--muted)">Pass: 1 of 3 used · ₹35 more on 2 bills</span>
+          <span class="p" style="color:var(--muted)">Pass: 1 of 3 used · ₹10, then ₹15 on the next 2 bills</span>
           <div class="slots"><div class="slot done" style="padding:5px"></div><div class="slot" style="padding:5px"></div><div class="slot" style="padding:5px"></div></div>
         </div>
-        <div class="cta"><button class="btn" type="button" data-go="bill2">Pay ₹314</button></div>
+        <div class="cta"><button class="btn" type="button" data-go="bill2">Pay ₹344</button></div>
       </div>
       <span class="tag-proto">Concept prototype</span>
     </section>
@@ -299,7 +301,7 @@ html.shot .tag-proto { display: none; }
       <div class="body">
         <div class="card tint" style="flex-direction:row; align-items:center; gap:10px">
           <span class="okdot" style="background:#fff"><svg width="16" height="16" viewBox="0 0 24 24" fill="#1E6BE6"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg></span>
-          <div style="display:flex; flex-direction:column"><span class="v">Pass done</span><span class="p">₹105 saved</span></div>
+          <div style="display:flex; flex-direction:column"><span class="v">Pass done</span><span class="p">₹30 saved</span></div>
         </div>
         <div class="card focus" style="gap:4px">
           <div class="row"><span class="v" style="font-size:20px">Electricity</span><span class="v" style="font-size:20px">₹1,960</span></div>
@@ -322,7 +324,7 @@ html.shot .tag-proto { display: none; }
 (function () {
   var STEPS = [
     { id: 'pass', d: 'Overview', t: 'Bill Pass', b: 'The pass at a glance' },
-    { id: 'offer', d: 'Day 0', t: 'See the offer', b: 'A personal price, not “₹35 credit”' },
+    { id: 'offer', d: 'Day 0', t: 'See the offer', b: 'All three steps and the price shown up front' },
     { id: 'add', d: 'Day 0', t: 'Add and check', b: 'Name check; fee shown first' },
     { id: 'paid', d: 'Day 6', t: 'Know when', b: 'Ready date and early-recharge rule' },
     { id: 'recharge', d: 'Day 28', t: 'Feel the saving', b: 'Off any number’s recharge' },
